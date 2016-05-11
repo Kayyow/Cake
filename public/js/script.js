@@ -1,14 +1,14 @@
 $(function() {
     $('body').scrollNav({
         showHeadline: false,
-        showTopLink: false,
         speed: 700,
         insertTarget: 'body',
         insertLocation: 'prependTo',
-        arrowKeys: true,
         fixedMargin: 0,
         scrollOffset: 60
     })
+
+    // $(document).scrollTo(value, speed, offset, animated)
 
     var skills = [
         {
