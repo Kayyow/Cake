@@ -1,9 +1,10 @@
 $(function() {
     $('body').scrollNav({
         showHeadline: false,
+        showTopLink: false,
         speed: 700,
-        insertTarget: 'body',
-        insertLocation: 'prependTo',
+        insertTarget: '.nav-container',
+        insertLocation: 'appendTo',
         fixedMargin: 0,
         scrollOffset: 60
     })
