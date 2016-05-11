@@ -9,8 +9,8 @@ $(function() {
         scrollOffset: 60
     })
 
-    $('#logo').addEventListener('click', function() {
-        $(document).scrollTo('#logo', 700, 60, true)
+    $('#logo').click(function() {
+        $(document).scrollTo('body', 700, 60, true)
     })
 
     var skills = [
