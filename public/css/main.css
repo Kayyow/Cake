@@ -141,7 +141,7 @@ h2{
 	margin : 0 25px;
 }
 
-.loisir_container .title{
+.loisir_container h2{
 	margin-top : 50px;
 }
 
@@ -318,78 +318,135 @@ form span{
 }
 
 
-/* ------------- */
-@media only screen and (max-width: 1280px){
-/* -------------------------------------------------------- */ 
-.intro-section, .skill-section, .contact-section{
-    padding-top: 30px;
-}
-.experiences-section, .about-section{
-	padding-top: 60px;
-}
-.web_skill, .other_skill, .dev_skill{
-	margin-top: 50px;
-}
-.title{
-	margin-bottom : 10px;
-}
-
-
-/* ------------- */
-@media only screen and (max-width: 990px){
-/* -------------------------------------------------------- */ 
-.title{
-	color : yellow;
-}
- /* -------------------------------------------------------- */ 
-
- .info_container{
-	max-width : 765px;
-}
-.infos {
-	width : 650px;
-}
-.infos .name{
-	font-size : 1.4rem;
-}
-.infos .job{
-	font-size: 35px;
-	margin : 30px 20px;
-}
-.infos img{
-	right: 150px;
-}
- /* -------------------------------------------------------- */ 
-
-}
-
-@media only screen and (max-width: 768px){
- .title {
- 	color : red;
- }
-  /* -------------------------------------------------------- */ 
-
- .info_container{
-	max-width : 90%;
-}
-.infos {
-	width : 420px;
-}
-.infos .name{
-	font-size : 1.2em;
-}
-.infos .job{
-	font-size: 25px;
-	margin : 30px 20px;
-}
-.infos img{
-	right: 150px;
-}
- /* -------------------------------------------------------- */ 
-}
 
 @media only screen and (max-width: 480px){
- .title {
- 	color : green;
+.wrapper1, .wrapper2 {
+	padding : 50px 0 100px 0;
+}
+ h2 {
+ 	font-size : 1.4em;
  }
+ /* -------------------------------------------------------- */ 
+ .info_container{
+	max-width : 310px;
+	height : 135px;
+}
+.infos {
+	height : 110px;
+	width : 250px;
+}
+.infos .name{
+	font-size : 0.8em;
+}
+.infos .job{
+	font-size: 1.2em;
+	width : 150px;
+	margin : 10px 10px;
+}
+.infos img{
+	top : 65px;
+	right: 50px;
+	width : 40px;
+}
+.picture img{
+	margin: 35px 0 0 0;
+	height : 120px;
+	border-width: 5px;
+}
+/* -------------------------------------------------------- */ 
+.experience_container{
+	max-width : 310px;
+	font-size : 1em;
+}
+.experience{
+	margin : 20px 0;
+	text-align: justify;
+}
+.experience span{
+	display : block;
+	margin-right : 10px;
+}
+/* -------------------------------------------------------- */ 
+.etude_container{
+	max-width : 310px;
+ 	font-size : 1em;
+}
+.etudes{
+	margin : 30px 0;
+	text-align : justify;
+}
+.etudes span{
+	display : block;
+	vertical-align: top
+}
+.etudes .date{
+	width : 300px;
+	padding-bottom : 5px;
+}
+.etudes .place{
+	width : 300px;
+	padding-bottom : 5px;
+	font-weight : 400;
+}
+.etudes .certificate{
+	width : 300px;
+	font-weight : 900;
+}
+/* -------------------------------------------------------- */ 
+.skill_container{
+	max-width : 310px;
+}
+.skill{
+	width :100px;
+	float: left;
+	margin : 0 25px;
+	height : 45px;
+}
+.category{
+	font-size : 1em;
+}
+.skill p{
+	font-size: 0.6em;
+}
+.bar {
+	width: 75px;
+	position : absolute;
+	left : 10%;
+}
+.web_skill, .other_skill, .dev_skill{
+	margin-top: 150px;
+}
+/* -------------------------------------------------------- */ 
+.about_container{
+	max-width : 310px;
+}
+.about_container p{
+	line-height :1.7;
+	font-size : 0.7em;
+}
+/* -------------------------------------------------------- */ 
+ .loisir_container{
+ 	max-width : 310px;
+	font-size : 1em;
+}
+.loisirs span{
+	text-align : center;
+	display : block;
+}
+/* -------------------------------------------------------- */ 
+.contact_container{
+	max-width : 310px;
+}
+.champs{
+	padding : 10px 10px;
+	width : 250px;
+}
+form label{
+	font-size : 1em;
+	margin : 5px;
+}
+.send{
+	width : auto;
+	padding : 10px 10px;
+}
 }
