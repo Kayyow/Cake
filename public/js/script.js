@@ -9,7 +9,9 @@ $(function() {
         scrollOffset: 60
     })
 
-    // $(document).scrollTo(value, speed, offset, animated)
+    $('#logo').addEventListener('click', function() {
+        $(document).scrollTo('#logo', 700, 60, true)
+    })
 
     var skills = [
         {
