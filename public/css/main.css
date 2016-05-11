@@ -5,18 +5,10 @@
 body {
 	margin : 0;
 }
-nav{
-	position : fixed;
-	top : 0;
-	z-index: 100;
-	width : 100%;
-	background: #3a3c40;
-	height : 40px;
-	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
-}
+
 .scroll-nav__list{
 	margin :0;
-	margin : 10px 50px 0 0;
+	margin : 15px 50px 0 0;
 	float: right;
 }
 nav li{
@@ -35,9 +27,9 @@ nav a:hover{
 .active a{
 	color : #47b7d5;
 }
+
 /* ---------------------------------------------NAV_CONTAINER   --*/
-.nav_container{
-	display : block;
+.nav-container{
 	position : fixed;
 	top : 0;
 	z-index: 1000;
@@ -46,25 +38,7 @@ nav a:hover{
 	height : 50px;
 	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
 }
-.nav{
-	padding : 15px 50px 0 0;
-	float: right;
-	margin : 0 auto;
-}
-.nav_container a {
-  	color: white;
-  	text-decoration: none;
-}
-.nav_container .nav a:hover{
-	color : white;
-	transition : .5s;
-}
-.nav_container .nav a {
-  	text-decoration: none;
-  	color: #6a767d;
-  	margin-left : 40px;
-}
-.logo{
+.nav-container img{
 	height: 30px;
 	float: left;
 	margin : 10px 0 0 50px;
@@ -89,30 +63,6 @@ body{
 	background: #1b1d20;
 	padding : 100px 0;
 }
-/*
-.experiences-section{
-	height : 100%;
-	padding-top : 125px;
-	background: #1b1d20;
-}
-.skill-section {
-    height: 100%;
-    padding-top: 75px;
-    background: #515359;
-}
-
-.about-section {
-    height: 100%;
-    padding-top: 125px;
-    background: #1b1d20;
-}
-
-.contact-section {
-    height: 100%;
-    padding-top: 125px;
-    background: #3a3c40;
-}
-*/
 h2{
 	color : #47b7d5;
 	font-weight: 900;
