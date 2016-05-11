@@ -231,10 +231,11 @@ textarea{
 	font-size :.8em;
 	height : 100px;
 }
-form p{
+form label{
 	font-size : 1.2em;
 	margin : 5px 0;
 	font-weight: 300;
+	display : block;
 }
 .champs:focus{
 	background-color: rgb(35, 39, 42);
@@ -275,26 +276,22 @@ form span{
 /* ---------------------------------------------ESPERIENCES_CONTAINER   --*/
 .experience_container{
 	color : white;
-	width : 1100px;
+	max-width : 1100px;
 	margin: 0 auto;
 	padding-bottom : 50px;
 	border-bottom : 1px solid #99aab5;
 	font-size : 1.2em;
 }
-.experience_container .date{
-	float : left;
-	font-weight: 300;
-	width : 240px;
-	line-height : 2;
-	text-align : justify;
+.experience{
+	margin : 10px 0;
 }
-.experience_container .company{
-	float : left;
-	width : 400px;
-	line-height : 2;
-	text-align : left;
-	padding-left : 50px;
+.experience span{
+	font-weight : 300;
+	display : inline-block;
+	width : 250px;
+	margin-right : 50px;
 }
+
 
 /* ---------------------------------------------ETUDE_CONTAINER   --*/
 .etude_container{
@@ -309,6 +306,7 @@ form span{
 }
 .etudes span{
 	display : inline-block;
+	vertical-align: top
 }
 .etudes .date{
 	width : 150px;
@@ -358,6 +356,7 @@ form span{
 	background-color : #47b7d5;
 	width : 130px;
 	height : 5px;
+	border-radius : .5em;
 }
 .web_skill, .other_skill, .dev_skill{
 	margin-top: 125px;
