@@ -6,7 +6,8 @@ $(function() {
         insertTarget: 'body',
         insertLocation: 'prependTo',
         arrowKeys: true,
-        fixedMargin: 0
+        fixedMargin: 0,
+        scrollOffset: 60
     })
 
     var skills = [
