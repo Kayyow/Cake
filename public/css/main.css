@@ -446,7 +446,7 @@ footer p{
 	font-size : 1em;
 }
 .loisirs span{
-	text-align : center;
+	opacity: 0;
 	display : block;
 }
 /* -------------------------------------------------------- */ 
@@ -474,14 +474,17 @@ footer p{
 	display : none;
 }
 .logo-container{
-	display : block;
+	display : inline-block;
 }
 .menu{
 	display : block;
 	position: fixed;
-	z-index : 1000;
 	width : 100%;
+	z-index : 1000;
 	background :#3a3c40;
+	text-decoration : none;
+	text-align : left;
+	border : none;
 }
 .menu i{
 	color : white;
@@ -496,10 +499,10 @@ footer p{
 }
 .scroll-nav__list{
 	float : left;
-	margin-right : 300px}
+}
 .scroll-nav__item{
 	display : block;
-	margin : 5px 0;
-	width : 250px
+	padding : 10px 0;
+	width : 250px;
 }
 }
