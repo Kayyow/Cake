@@ -115,9 +115,9 @@ $(function() {
 
     
     $(".menu").click(function(e) {
-            e.stopPropagation();
-            $('.nav-container').toggleClass('responsive');
-        })
+        e.stopPropagation();
+        $('.nav-container').toggleClass('responsive');
+    })
     
 
 });
