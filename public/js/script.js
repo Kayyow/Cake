@@ -112,4 +112,12 @@ $(function() {
         var dom = '<div class="skill"><p>'+s.name+'</p><div class="bar"><div class="progress" style="width:'+s.percentage+'%"></div></div></div>'
         $('.other_skill').append(dom)
     }
+
+    
+    $(".menu").click(function(e) {
+            e.stopPropagation();
+            $('.nav-container').toggleClass('responsive');
+        })
+    
+
 });

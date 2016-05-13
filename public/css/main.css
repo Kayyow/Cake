@@ -5,6 +5,9 @@
 body {
 	margin : 0;
 }
+.menu{
+	display : none;
+}
 
 .scroll-nav__list{
 	margin :0;
@@ -32,7 +35,7 @@ nav a:hover{
 .nav-container{
 	position : fixed;
 	top : 0;
-	z-index: 1000;
+	z-index: 500;
 	width : 100%;
 	background: #3a3c40;
 	height : 50px;
@@ -42,6 +45,7 @@ nav a:hover{
 	height: 30px;
 	float: left;
 	margin : 10px 0 0 50px;
+	cursor : pointer;
 }
 
 /* Custom CSS
@@ -317,6 +321,18 @@ form span{
 	margin-top: 125px;
 }
 
+footer{
+	width : 100%;
+	height : 50px;
+	background : #1b1d20;
+}
+footer p{
+	text-align : center;
+	margin : 0;
+	padding : 15px 0 0 0;
+	font-size : .7em;
+	color : #6a767d;
+}
 
 
 @media only screen and (max-width: 480px){
@@ -448,5 +464,42 @@ form label{
 .send{
 	width : auto;
 	padding : 10px 10px;
+}
+/* -------------------------------------------------------- */ 
+footer p{
+	font-size: .6em;
+}
+/* -------------------------------------------------------- */ 
+.nav-container{
+	display : none;
+}
+.logo-container{
+	display : block;
+}
+.menu{
+	display : block;
+	position: fixed;
+	z-index : 1000;
+	width : 100%;
+	background :#3a3c40;
+}
+.menu i{
+	color : white;
+	margin : 15px;
+	font-size : 1.2em;
+}
+.responsive{
+	display : block;
+	width : 100%;
+	height : auto;
+	padding-bottom : 10px;
+}
+.scroll-nav__list{
+	float : left;
+	margin-right : 300px}
+.scroll-nav__item{
+	display : block;
+	margin : 5px 0;
+	width : 250px
 }
 }
