@@ -10,8 +10,11 @@ class HomeController extends AppController {
     }
 
     public function index() {
-        $skills = $this->skill->all();
-        $skillGroups = $this->skill->all();
-        $this->render('home', compact('skills', 'skillGroups'));
+        $skills = $this->skill->allWithGroups();
+        $skillsByGroups = [];
+        foreach ($skills as $skill) {
+            $skillsByGroups[$skill->label][] = $skill;
+        }
+        $this->render('home', compact('skillsByGroups'));
     }
 }
