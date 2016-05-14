@@ -1,7 +1,7 @@
 <div class="experience_container">
     <h2>Expériences</h2>
     <div class="experience">
-        <span>En cours depuis le 24/08/15</span> Administrateur système et réseaux - Hautbois
+        <span>En cours depuis le 24/08/15</span> Administrateur systèmes et réseaux - Alternance
     </div>
     <div class="experience">
         <span>Du 05/01/15 au 13/03/15</span> Développement Web - Stage BTS

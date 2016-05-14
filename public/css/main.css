@@ -334,6 +334,76 @@ footer p{
 	color : #6a767d;
 }
 
+.about_container, .contact_container, .experience_container, .etude_container, .loisir_container{
+	padding-left : 10px;
+	padding-right : 10px;
+}
+
+@media only screen and (max-width: 1150px){
+/* -------------------------------------------------------- */ 
+.skill_container{
+	max-width : 1000px;
+}
+.skill{
+	width : 150px;
+	float: left;
+	margin : 0 25px;
+	height : 60px;
+}
+.category{
+	font-size : 1.2em;
+}
+.skill p{
+	font-size: 0.8em;
+}
+.bar {
+	width: 125px;
+	position : absolute;
+	left : 8%;
+}
+.web_skill, .other_skill, .dev_skill{
+	margin-top: 100px;
+}
+}
+
+@media only screen and (max-width: 800px){
+/* -------------------------------------------------------- */ 
+.nav-container{
+	display : none;
+}
+.logo-container{
+	display : inline-block;
+}
+.menu{
+	display : block;
+	position: fixed;
+	width : 100%;
+	z-index : 1000;
+	background :#3a3c40;
+	text-decoration : none;
+	text-align : left;
+	border : none;
+}
+.menu i{
+	color : white;
+	margin : 15px;
+	font-size : 1.2em;
+}
+.responsive{
+	display : block;
+	width : 100%;
+	height : auto;
+	padding-bottom : 10px;
+}
+.scroll-nav__list{
+	float : left;
+}
+.scroll-nav__item{
+	display : block;
+	padding : 10px 0;
+	width : 250px;
+}
+}
 
 @media only screen and (max-width: 480px){
 .wrapper1, .wrapper2 {
@@ -468,41 +538,5 @@ form label{
 /* -------------------------------------------------------- */ 
 footer p{
 	font-size: .6em;
-}
-/* -------------------------------------------------------- */ 
-.nav-container{
-	display : none;
-}
-.logo-container{
-	display : inline-block;
-}
-.menu{
-	display : block;
-	position: fixed;
-	width : 100%;
-	z-index : 1000;
-	background :#3a3c40;
-	text-decoration : none;
-	text-align : left;
-	border : none;
-}
-.menu i{
-	color : white;
-	margin : 15px;
-	font-size : 1.2em;
-}
-.responsive{
-	display : block;
-	width : 100%;
-	height : auto;
-	padding-bottom : 10px;
-}
-.scroll-nav__list{
-	float : left;
-}
-.scroll-nav__item{
-	display : block;
-	padding : 10px 0;
-	width : 250px;
 }
 }

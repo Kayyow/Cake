@@ -1,6 +1,11 @@
 <div class="etude_container">
     <h2>Études</h2>
     <div class="etudes">
+        <span class="date">2015 - 2016</span>
+        <span class="place">Institut d'Informatique Appliquée Saint-Berthevin</span> 
+        <span class="certificate">LICENCE INFORMATIQUE GÉNÉRALE Option Réseaux</span>
+    </div>
+    <div class="etudes">
         <span class="date">2013 - 2015</span>
         <span class="place">Institut d'Informatique Appliquée Saint-Berthevin</span> 
         <span class="certificate">BREVET DE TECHNICIEN SUPÉRIEUR SIO Option Solutions Logicielles et Applications Métiers (SLAM)</span>
