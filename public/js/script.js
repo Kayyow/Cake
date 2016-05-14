@@ -7,7 +7,7 @@ $(function() {
             insertTarget: '.nav-container',
             insertLocation: 'appendTo',
             fixedMargin: 0,
-            scrollOffset: 60
+            scrollOffset: 90
         })
 
         $('#logo').click(function() {
