@@ -1,0 +1,13 @@
+.download_container{
+    margin: 150px auto;
+}
+
+.download{
+    border : none;
+    text-decoration : none;
+    padding : 15px 30px;
+    font-size : 1.2em;
+    background: #1b1d20;
+    color : #47b7d5;
+    border : 2px solid white;
+}

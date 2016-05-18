@@ -4,6 +4,7 @@
  * --------------------------------------- */
 body {
 	margin : 0;
+	background : #3a3c40;
 }
 .menu{
 	display : none;
