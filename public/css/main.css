@@ -4,6 +4,7 @@
  * --------------------------------------- */
 body {
 	margin : 0;
+	background : #3a3c40;
 }
 .menu{
 	display : none;
@@ -340,6 +341,21 @@ footer p{
 .about_container, .contact_container, .experience_container, .etude_container, .loisir_container{
 	padding-left : 10px;
 	padding-right : 10px;
+}
+
+/* ---------------------------------------------------------------- */
+.download_container{
+	margin: 150px auto;
+	max-width : 1100px;
+}
+.download{
+	border : none;
+	text-decoration : none;
+	padding : 15px 30px;
+	font-size : 1.2em;
+	background: #1b1d20;
+	color : #47b7d5;
+	border : 2px solid white;
 }
 
 @media only screen and (max-width: 1150px){
