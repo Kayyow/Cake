@@ -12,6 +12,9 @@
 </head>
 
 <body>
+	<div class="nav-container">
+        <li><a href="index.php">Accueil</a></li>
+    </div>
     <?= $content ?>
 </body>
 </html>

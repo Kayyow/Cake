@@ -1,13 +1,62 @@
-.download_container{
-    margin: 150px auto;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
+
+
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: #1b1d20;
+	margin : 0;
+}
+.nav-container li{
+	display: block;
+	text-align : center;
+	margin-top: 15px;
+}
+.nav-container  a{
+	text-decoration : none;
+	color: #6a767d;
+	transition: .2s;
+}
+.nav-container  a:hover{
+	color : white;
+	transition: .2s;
+}
+.nav-container{
+	position : fixed;
+	top : 0;
+	z-index: 500;
+	width : 100%;
+	background: #3a3c40;
+	height : 50px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
+
+.download_container{
+    margin: 300px auto;
+    max-width : 1100px;
+    text-align : center;
+}
+h2{
+	font-size : 1.3em;
+	text-align : center;
+	color : white;
+	font-weight : 400;
+	padding-bottom : 25px;
+	border-bottom : 1px solid white;
+}
 .download{
-    border : none;
-    text-decoration : none;
+	text-decoration: none;
+	display : inline-block;
+	margin-top : 20px;
     padding : 15px 30px;
-    font-size : 1.2em;
-    background: #1b1d20;
+    font-size : 1em;
+    background: #3a3c40;
+    border-radius: .2em;
     color : #47b7d5;
     border : 2px solid white;
+}
+.download:hover{
+	transition : .5s;
+	background: white;
 }

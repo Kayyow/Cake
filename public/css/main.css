@@ -63,10 +63,12 @@ body{
 .wrapper1 {
     background: #3a3c40;
 	padding : 100px 0;
+	min-height: 100vh
 }
 .wrapper2 {
 	background: #1b1d20;
 	padding : 100px 0;
+	min-height: 100vh
 }
 h2{
 	color : #47b7d5;
@@ -268,11 +270,11 @@ form span{
 	font-weight: 300;
 }
 .etudes .place{
-	width : 350px;
+	width : 420px;
 	font-weight: 300;
 }
 .etudes .certificate{
-	width : 450px;
+	width : 520px;
 }
 
 /* ---------------------------------------------SKILL_CONTAINER   --*/
