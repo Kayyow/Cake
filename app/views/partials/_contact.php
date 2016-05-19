@@ -1,7 +1,7 @@
 <div class="contact_container" id="contact">
     <h2>Me contacter</h2>
 
-    <form action="/php/cake/public/?page=contact-email" method="POST">
+    <form action="/?page=contact-email" method="POST">
 
         <span class="name">
             <label for="name">Nom</label>
