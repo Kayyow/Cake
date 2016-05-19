@@ -4,26 +4,24 @@ require '../app/App.php';
 App::load();
 $app = App::getInstance();
 
-if ( empty($_GET) ) {
-    $page = 'home';
+if (isset($_GET['page'])) {
+    $page = $_GET['page'];
 } else {
-    if ($_GET['page'] === 'documents' || $_GET['page'] === 'document') {
-        $page = 'documents';
-    } else {
-        $page = '';
-    }
+    $page = 'home';
 }
 
-$controller = new \App\Controllers\HomeController();
 if ($page === 'home') {
     $controller = new \App\Controllers\HomeController();
     $controller->index();
-} else if ($page === 'documents') {
-    $controller = new \App\Controllers\StaticPagesController();
-    $controller->documents();
 } else {
-    $controller = new \App\Controllers\HomeController();
-    $controller->notFound();
+    $controller = new \App\Controllers\StaticPagesController();
+    if ($page === 'documents' || $page === 'document') {
+        $controller->documents();
+    } else if ($page === 'contact-email') {
+        $controller->sendContactEmail();
+    } else {
+        $controller->notFound();
+    }
 }
 
 ?>
