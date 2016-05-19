@@ -1,33 +1,33 @@
-<div class="contact_container" id="contact">
+<div class="contact_container">
     <h2>Me contacter</h2>
 
-    <form action="/?page=contact-email" method="POST">
+    <form action="/?page=contact-email" method="POST" id="contact">
 
-        <span class="name">
+        <div class="name">
             <label for="name">Nom</label>
-            <span class="error"><?= isset($errors['name']) ? $errors['name'] : null ?></span>
+            <span class="error_field name"></span>
             <input class="champs" type="text" id ="name" name="name" placeholder="Nom"></input>
-        </span>
+        </div>
 
-        <span class="mail">
+        <div class="mail">
             <label for="email">Email</label >
-            <span class="error"><?= isset($errors['email']) ? $errors['email'] : null ?></span>
-            <input class="champs" type="email" id="email" name="email" placeholder="Adresse@mail.com"></input>               
-        </span>
+            <span class="error_field email"></span>
+            <input class="champs" type="email" id="email" name="email" placeholder="Adresse@mail.com"></input>
+        </div>
 
-        <span class="subject">
+        <div class="subject">
             <label for="subject">Sujet</label >
-            <span class="error"><?= isset($errors['subject']) ? $errors['subject'] : null ?></span>
+            <span class="error_field subject"></span>
             <input class="champs" type="text" id="subject" name="subject" placeholder="Sujet"></input><br>
-        </span class="message">
+        </div class="message">
 
-        <span>
+        <div>
             <label for="message">Message</label >
-            <span class="error"><?= isset($errors['message']) ? $errors['message'] : null ?></span>
+            <span class="error_field message"></span>
             <textarea class="champs" id="message" name="message" placeholder="Votre message"></textarea>
-        </span>
+        </div>
 
         <input class="send" type="submit" value="Envoyer !"></input>  
 
-    </form>                   
+    </form>
 </div>

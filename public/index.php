@@ -14,7 +14,7 @@ if ($page === 'home') {
     $controller = new \App\Controllers\HomeController();
     $controller->index();
 } else {
-    $controller = new \App\Controllers\StaticPagesController();
+    $controller = new \App\Controllers\WidgetsController();
     if ($page === 'documents' || $page === 'document') {
         $controller->documents();
     } else if ($page === 'contact-email') {
