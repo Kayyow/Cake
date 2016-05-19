@@ -1,7 +1,7 @@
 <div class="contact_container">
     <h2>Me contacter</h2>
 
-    <form action="/?page=contact-email" method="POST" id="contact">
+    <form id="contact"> <!-- Processed with jQuery's AJAX method -->
 
         <div class="name">
             <label for="name">Nom</label>

@@ -24,7 +24,7 @@ $(function() {
     }
     toggle_menu();
 
-    var submit_contact_form = function(e) {
+    var submit_contact_form = function(event) {
         var inputName = $('input[name=name]'),
             inputEmail = $('input[name=email]'),
             inputSubject = $('input[name=subject]'),

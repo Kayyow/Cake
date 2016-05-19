@@ -39,6 +39,6 @@ class WidgetsController extends AppController {
             $datas['errors'] = $errors;
         }
 
-        echo json_encode($datas);        
+        echo json_encode($datas);
     }
 }
