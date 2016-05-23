@@ -60,16 +60,27 @@ body{
 	margin: 0 auto;
 }
 /* ---------------------------------------------------------- */
-.wrapper1 {
-    background: #3a3c40;
+.wrapper1{
+    /*background: #3a3c40;*/
 	padding-top : 100px;
-	min-height: 100vh
+	min-height: 100vh;
+	border-bottom: 2px solid #262c32;
+	background: #24282e; /* Old browsers */
+	background: -moz-linear-gradient(top, #24282e 0%, #2f333a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #24282e 0%,#2f333a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #24282e 0%,#2f333a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .wrapper2 {
-	background: #1b1d20;
+	/*background: #1b1d20;*/
 	padding-top : 100px;
-	min-height: 100vh
+	min-height: 100vh;
+	border-bottom : 2px solid #1c2228;
+	background: #24282e; /* Old browsers */
+	background: -moz-linear-gradient(bottom, #24282e 0%, #2f333a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(bottom, #24282e 0%,#2f333a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to top, #24282e 0%,#2f333a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
 h2{
 	color : #47b7d5;
 	font-weight: 900;
@@ -145,7 +156,8 @@ h2{
 	text-align : justify;
 }
 .loisirs span{
-	margin : 0 25px;
+	opacity : 0;
+	display : block;
 }
 
 .loisir_container h2{
@@ -183,6 +195,7 @@ h2{
 	font-family: 'Lato', sans-serif;
 	border-radius : .2rem;
 	width : 400px;
+	margin-bottom : 15px;
 }
 textarea{
 	font-size :.8em;
@@ -222,12 +235,6 @@ form label{
 }
 form span{
 	display : inline-block;
-}
-.subject {
-	width : 100%;
-}
-.subject .champs{
-	max-width : 100%;
 }
 .error_field{
 	display : block;
