@@ -7,6 +7,9 @@ class HomeController extends AppController {
         parent::__construct();
         $this->loadModel('skill');
         $this->loadModel('skillGroup');
+        $this->loadModel('experience');
+        $this->loadModel('study');
+        $this->loadModel('leisure');
     }
 
     public function index() {
@@ -15,6 +18,9 @@ class HomeController extends AppController {
         foreach ($skills as $skill) {
             $skillsByGroups[$skill->label][] = $skill;
         }
-        $this->render('home', compact('skillsByGroups'));
+        $experiences = $this->experience->all();
+        $studies = $this->study->all();
+        $leisures = $this->leisure->all();
+        $this->render('home', compact('skillsByGroups', 'experiences', 'studies', 'leisures'));
     }
 }
